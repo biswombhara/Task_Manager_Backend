@@ -1,0 +1,70 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dashboard h2 {
+  margin-bottom: 1rem;
+}
+
+.dashboard .task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard .task-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard .view-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.dashboard .view-btn:hover {
+  background-color: #2980b9;
+}
+
+.dashboard .empty-state {
+  color: #555;
+  margin-top: 1rem;
+}
+
+.no-access {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.no-access h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.no-access p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
